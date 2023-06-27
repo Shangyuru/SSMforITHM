@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--id:唯一性标识,不允许重复   class:全包名，全限定名   scope:对象作用范围(singleton单例，prototype多例)-->
+    <bean id="userdao" class="com.shangyuru.dao.impl.UserDaoImpl" scope="prototype"></bean>
+</beans>
